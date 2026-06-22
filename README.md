@@ -46,7 +46,7 @@ pkgs.pup
 
 ## Versão atual
 
-`v1.2.1` — ver [releases do pup](https://github.com/DataDog/pup/releases).
+`v1.2.2` — ver [releases do pup](https://github.com/DataDog/pup/releases).
 
 ## Atualizar para uma nova versão
 

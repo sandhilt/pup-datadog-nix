@@ -5,24 +5,24 @@
 
   outputs = { self, nixpkgs }:
     let
-      version = "1.2.1";
+      version = "1.2.2";
 
       srcs = {
         "x86_64-linux" = {
           url = "https://github.com/DataDog/pup/releases/download/v${version}/pup_${version}_Linux_x86_64.tar.gz";
-          hash = "sha256-ySznfbFr7m5jIGx3nFPROLHH1Zg/TWg0nx48ExGHo+Q=";
+          hash = "sha256-88dyPaIi9O7R9NaXyJoTn5YnS3A7h3c9d85mzCLLxq8=";
         };
         "aarch64-linux" = {
           url = "https://github.com/DataDog/pup/releases/download/v${version}/pup_${version}_Linux_arm64.tar.gz";
-          hash = "sha256-BIkT3OuFx29C22DpBdAGAJyGlp5fTNFvqD9UDbhtnMQ=";
+          hash = "sha256-XQGaccTIlfsJHxWoq7RsLl9AHRpEnJMBdvNKc/Yd9eg=";
         };
         "x86_64-darwin" = {
           url = "https://github.com/DataDog/pup/releases/download/v${version}/pup_${version}_Darwin_x86_64.tar.gz";
-          hash = "sha256-VXfT/P3/YYhmTDLbv9JVhkoztx09uTl53WvMAhLJn+A=";
+          hash = "sha256-8aatf2rO8PD+GA6/IwyzU9ncFZKTvNKgi513dnuh2R8=";
         };
         "aarch64-darwin" = {
           url = "https://github.com/DataDog/pup/releases/download/v${version}/pup_${version}_Darwin_arm64.tar.gz";
-          hash = "sha256-NVhArSPMnt59lze0zbLfyDnZj5Xmc6rt42+BJ/oEw4c=";
+          hash = "sha256-tn/6ZNEqHwP0/zTLFwoKpjNqJPBBGJNHDxqIqKG3iEk=";
         };
       };
 
